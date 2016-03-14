@@ -1,0 +1,14 @@
+libhal.so.1 libhal1-flash #MINVER#
+ libhal_ctx_free@Base 0.3.3
+ libhal_ctx_init@Base 0.3.3
+ libhal_ctx_new@Base 0.3.3
+ libhal_ctx_set_dbus_connection@Base 0.3.3
+ libhal_ctx_shutdown@Base 0.3.3
+ libhal_device_get_property_double@Base 0.3.3
+ libhal_device_get_property_int@Base 0.3.3
+ libhal_device_get_property_string@Base 0.3.3
+ libhal_device_get_property_type@Base 0.3.3
+ libhal_device_get_property_uint64@Base 0.3.3
+ libhal_free_string@Base 0.3.3
+ libhal_free_string_array@Base 0.3.3
+ libhal_manager_find_device_string_match@Base 0.3.3
