@@ -1,0 +1,3 @@
+libhal1-flash: non-dev-pkg-with-shlib-symlink
+libhal1-flash: package-name-doesnt-match-sonames
+libhal1-flash: no-upstream-changelog
