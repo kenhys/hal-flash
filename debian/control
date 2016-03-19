@@ -9,7 +9,7 @@ Homepage: https://github.com/cshorler/hal-flash
 Package: libhal1-flash
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}, udisks2
-Suggests: flashplugin-installer
+Suggests: flashplugin-nonfree
 Description: Compatibility library to allow playback of Flash DRM content
  A libhal stub library forwarding to UDisks specifically to satisfy the
  libflashplayer.so / libadobecp requirements.
