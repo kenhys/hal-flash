@@ -1,3 +1,28 @@
+hal-flash (0.3.3-1) unstable; urgency=medium
+
+  * Initial upload to unstable (Closes: #818167)
+  * debian/source/format
+    - Use quilt format.
+  * debian/control
+    - Update standards-version to 3.9.7
+    - Use hal-flash as a source package name
+    - Update maintainer field as debian package
+    - Remove VCS- field template
+    - Fix suggest package name for debian
+  * debian/watch
+    - Add watch file
+  * debian/rules
+    - Apply hardening=+all
+    - Remove sample header comment
+  * debian/libhal1-flash.lintian-overrides
+    - Suppress pedantic lintian reports
+  * debian/source.lintian-overrides
+    - Suppress pedantic gpg signature lintian report
+  * debian/libhal1-flash.symbols
+    - Add symbols control file
+
+ -- HAYASHI Kentaro <hayashi@clear-code.com>  Sat, 19 Mar 2016 15:47:35 +0900
+
 libhal1-flash (0.3.3) unstable; urgency=low
 
   * Documentation update
